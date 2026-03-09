@@ -1,5 +1,5 @@
 
-# 🤖 Transformer-Based Conversational Chatbot
+#  Transformer-Based Conversational Chatbot
 
 A conversational AI chatbot built using the **BlenderBot Transformer model from Hugging Face**.
 The application provides a simple **web interface using Streamlit** where users can interact with the chatbot in real time.
@@ -8,7 +8,7 @@ The chatbot generates context-aware responses using a **pretrained transformer-b
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project demonstrates how to build and deploy a **Transformer-based chatbot** using modern NLP frameworks. The system leverages a pretrained model to generate human-like responses and deploys the application through a lightweight web interface.
 
@@ -21,7 +21,7 @@ The goal of this project is to showcase:
 
 ---
 
-# 🧠 Model Used
+#  Model Used
 
 **BlenderBot 400M Distilled**
 
@@ -39,7 +39,7 @@ Library used: **Hugging Face Transformers**
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 * **Python**
 * **PyTorch**
@@ -49,7 +49,7 @@ Library used: **Hugging Face Transformers**
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ### 1. Clone the Repository
 
@@ -68,7 +68,7 @@ pip install datasets transformers accelerate streamlit pyngrok torch
 
 ---
 
-# 🔑 Setup ngrok (Optional)
+#  Setup ngrok (Optional)
 
 To expose the chatbot publicly, create a free account on:
 
@@ -83,7 +83,7 @@ ngrok.set_auth_token("YOUR_NGROK_TOKEN")
 
 ---
 
-# ▶️ Running the Application
+#  Running the Application
 
 Run the Streamlit app:
 
@@ -99,7 +99,7 @@ http://localhost:8501
 
 ---
 
-# 🌍 Exposing the App Publicly
+#  Exposing the App Publicly
 
 To make the chatbot accessible online:
 
@@ -113,7 +113,7 @@ This generates a **public URL** that others can use to access the chatbot.
 
 ---
 
-# 💬 Example Workflow
+#  Example Workflow
 
 1. User enters a message in the Streamlit interface
 2. Input is processed by the BlenderBot model
@@ -122,7 +122,7 @@ This generates a **public URL** that others can use to access the chatbot.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 chatbot-project
@@ -135,7 +135,7 @@ chatbot-project
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Possible improvements for this project:
 
